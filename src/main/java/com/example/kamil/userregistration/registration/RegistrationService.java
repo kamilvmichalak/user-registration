@@ -6,6 +6,6 @@ import org.springframework.stereotype.Service;
 public class RegistrationService {
 
     public static String register(RegistrationRequest request) {
-        return null;
+        return "works";
     }
 }
