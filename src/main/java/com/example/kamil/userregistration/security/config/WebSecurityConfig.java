@@ -30,7 +30,7 @@ public class WebSecurityConfig {
                         .anyRequest().authenticated() // All other requests require authentication
                 )
                 .formLogin(form -> form // Customizing form login
-                        .loginPage("/login") // Specify custom login page
+////                        .loginPage("/login") // Specify custom login page
                         .permitAll() // Allow everyone to see the login page
                 );
 
