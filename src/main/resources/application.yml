@@ -17,3 +17,15 @@ spring:
         format_sql: true
     show-sql: true
 
+  mail:
+    host: localhost
+    port: 1025
+    username: hello
+    password: hello
+
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
